@@ -18,4 +18,4 @@ Below shows how to wire up everyting in three different ways
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-![Alt Image text]( "Optional Title")
+![Alt Image text](https://github.com/NeonVulture/Arduino-Projects/blob/main/Pocket-Simon/Wiring_Diagram.PNG "Optional Title")
