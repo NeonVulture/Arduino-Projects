@@ -3,11 +3,12 @@
 #### Features
 ## Component List
 + Attiny85
++ Breadboard
 + 4 push buttons (preferably colored)
 + 4 LEDs (Red, Green, Blue, Yellow)
 + Piezo Speaker/Buzzer
-+ 3V Battery & holder (or any VCC source 5V or less)
-+ Switch (optional) 
++ 3V (CR2032) battery & holder (or any power source 5V or less)
++ Slide switch (optional) 
 + Attiny85 Programmer or Arduino Uno
 + 10uF Capacitor (if not using programmer)
 ## Wiring
