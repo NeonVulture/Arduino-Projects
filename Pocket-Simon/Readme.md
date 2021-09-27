@@ -17,4 +17,5 @@ Below shows how to wire up everyting in three different ways
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
-![Alt Image text](/Wiring-Diagram.png?raw=true "Optional Title")
+
+![Alt Image text]( "Optional Title")
