@@ -3,3 +3,4 @@
 #### Features
 ## Component List
 ## Wiring
+Below shows how to wire up everyting in three different ways
