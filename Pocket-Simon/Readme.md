@@ -1,2 +1,3 @@
 # Pocket Simon
-### The famous Simon game on the go!
+#### The famous Simon game on the go!
+#### Features
