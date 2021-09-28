@@ -15,6 +15,6 @@
 + 10uF Capacitor (if not using programmer)
 ## Wiring
 Below show how to wire up the components on a breadboard and
-
-![Breadboard Wiring](https://github.com/NeonVulture/Arduino-Projects/blob/main/Pocket-Simon/Wiring_Diagram.PNG "Breadboard Wiring")
+![Schematic](https://github.com/NeonVulture/Arduino-Projects/blob/main/Pocket-Simon/Assets/Schematic.PNG "Schematic")
+![Breadboard Wiring](https://github.com/NeonVulture/Arduino-Projects/blob/main/Pocket-Simon/Assets/Wiring_Diagram.PNG "Breadboard Wiring")
 ## PCB Design
