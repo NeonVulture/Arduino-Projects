@@ -10,10 +10,11 @@
 + 4 220 Ohm resistors
 + 1 100 ohm resistor
 + 3V (CR2032) battery & holder (or any power source 5V or less)
-+ Slide switch (optional) 
++ 2 Slide switches (optional for PCB desgin) 
 + Attiny85 Programmer or Arduino Uno
 + 10uF Capacitor (if not using programmer)
 ## Wiring
 Below show how to wire up the components on a breadboard and
 
 ![Breadboard Wiring](https://github.com/NeonVulture/Arduino-Projects/blob/main/Pocket-Simon/Wiring_Diagram.PNG "Breadboard Wiring")
+## PCB Design
