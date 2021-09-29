@@ -19,5 +19,6 @@ Below show how to wire up the components on a breadboard and
 ![Schematic](https://github.com/NeonVulture/Arduino-Projects/blob/main/Pocket-Simon/Assets/Schematic.PNG "Schematic")
 ![Breadboard Wiring](https://github.com/NeonVulture/Arduino-Projects/blob/main/Pocket-Simon/Assets/Wiring_Diagram.PNG "Breadboard Wiring")
 ## PCB Design
-If you wish to make your build more permanent, I have provided a PCB version that is the about the size of a credit card (70mm x 45mm). In addition, the PCB utilizes two slide switches SW5 and SW6. Switch SW5 is used to power on and off the game while switch SW6 "mutes" the piezo/buzzer speaker as to not disturb anyone.
-![PCB View](https://github.com/NeonVulture/Arduino-Projects/blob/main/Pocket-Simon/Assets/PCB_FullView_3D.PNG "PCB View")
+If you wish to make your build more permanent, I have provided a PCB version that is the about the size of a credit card (70mm x 45mm). In addition to the build on the breadboard, the PCB utilizes two slide switches SW5 and SW6. Switch SW5 is used to power on and off the game while switch SW6 "mutes" the piezo/buzzer speaker as to not disturb anyone in a public setting.
+![PCB View](https://github.com/NeonVulture/Arduino-Projects/blob/main/Pocket-Simon/Assets/PCB_FullView.PNG "PCB View")
+![PCB 3D View](https://github.com/NeonVulture/Arduino-Projects/blob/main/Pocket-Simon/Assets/PCB_FullView_3D.PNG "PCB 3D View")
