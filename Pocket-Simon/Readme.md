@@ -1,5 +1,5 @@
 # Pocket Simon
-#### The famous Simon game on the go!
+#### A pocket-sized version of the famous Simon game based on the Attiny85 microcontroller
 #### Features
 + Switch to "mute" piezo/buzzer speaker
 ## Component List
