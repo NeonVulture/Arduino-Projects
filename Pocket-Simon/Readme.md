@@ -23,4 +23,6 @@ If you wish to make your build more permanent, I have provided a PCB version tha
 <p align="center">
   <img src="https://github.com/NeonVulture/Arduino-Projects/blob/main/Pocket-Simon/Assets/PCB_FullView.PNG?raw=true" alt="PCB View"/>
 </p>
+
 ![PCB 3D View](https://github.com/NeonVulture/Arduino-Projects/blob/main/Pocket-Simon/Assets/PCB_FullView_3D.PNG "PCB 3D View")
+This PCB was designed using EasyEDA. If you would like your own, you can download the gerber files and order it on JLCPCB. Alternatively, You can download the template here which can be edited in KiCad as well.
