@@ -19,6 +19,22 @@ Below show how to wire up the components on a breadboard and
 ![Schematic](https://github.com/NeonVulture/Arduino-Projects/blob/main/Pocket-Simon/Assets/Schematic.PNG "Schematic")
 ![Breadboard Wiring](https://github.com/NeonVulture/Arduino-Projects/blob/main/Pocket-Simon/Assets/Wiring_Diagram.PNG "Breadboard Wiring")
 ## Code & Uploading to Attiny85
+```c
+void beep (unsigned char speakerPin, int frequencyInHertz, long timeInMilliseconds)
+{ // http://web.media.mit.edu/~leah/LilyPad/07_sound_code.html
+  int x;
+  long delayAmount = (long)(1000000 / frequencyInHertz);
+  long loopTime = (long)((timeInMilliseconds * 1000) / (delayAmount * 2));
+  pinMode(speakerPin, OUTPUT);
+  for (x = 0; x < loopTime; x++) {
+    digitalWrite(speakerPin, HIGH);
+    delayMicroseconds(delayAmount);
+    digitalWrite(speakerPin, LOW);
+    delayMicroseconds(delayAmount);
+  }
+  pinMode(speakerPin, INPUT);
+}
+```
 The sketch can be uploaded either using an attiny85 programmer or using an Arduino UNO. If you are unfamiliar with programming the Attiny85 with an Arduino UNO, I recommed following this [tutorial](https://create.arduino.cc/projecthub/arjun/programming-attiny85-with-arduino-uno-afb829).
 ## PCB Design
 If you wish to make your build more permanent, I have provided a PCB version that is the about the size of a credit card (70mm x 45mm). In addition to the build on the breadboard, the PCB utilizes two slide switches SW5 and SW6. Switch SW5 is used to power on and off the game while switch SW6 "mutes" the piezo/buzzer speaker as to not disturb anyone in a public setting.
