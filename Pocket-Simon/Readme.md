@@ -39,7 +39,7 @@ void beep (unsigned char speakerPin, int frequencyInHertz, long timeInMillisecon
 }
 ```
 The `MatchTone()` function will assign a tone to each button. The tone assign is determined by
-```
+```c
 void MatchTone(byte ledIndex) {
   pinMode(buttonPins[ledIndex], OUTPUT);
   digitalWrite(buttonPins[ledIndex], LOW);
@@ -48,7 +48,7 @@ void MatchTone(byte ledIndex) {
 }
 ```
 The actual game sequence is defined in the `playSequence()` which lights an LED at random and utilizes the `MatchTone()` function to produce the corresponding tone.
-```
+```c
 void playSequence() {
   for (int i = 0; i < gameIndex; i++) {
     byte currentLed = gameSequence[i];
