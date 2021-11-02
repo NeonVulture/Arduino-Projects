@@ -1,7 +1,8 @@
 # ATtiny85 Ambient Light
 #### Create ambient lighting effects using an Attiny85 and RGB Strip
 #### Features
-+ LDR 
++ Cycle through LED effects using a pushbutton.
++ LDR to ensure that the RGB strip operates only in a dark environment.
 ## Component List
 + Attiny85
 + RGB Strip (preferably 5V)
