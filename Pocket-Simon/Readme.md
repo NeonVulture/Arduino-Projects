@@ -11,7 +11,7 @@
 + 4 220 Ohm resistors
 + 1 100 ohm resistor
 + 3V (CR2032) battery & holder (or any power source 5V or less)
-+ 2 Slide switches (optional for PCB desgin) 
++ 2 Slide switches (optional for PCB design) 
 + Attiny85 Programmer or Arduino Uno
 + 10uF Capacitor (if not using programmer)
 ## Wiring
