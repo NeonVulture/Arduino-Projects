@@ -10,8 +10,8 @@
 #include <ESPAsyncWebServer.h>
 #include <AsyncElegantOTA.h>
 
-const char *ssid = "RAMOS";
-const char *password = "87BL504KPC";
+const char *ssid = "YOUR_SSID";
+const char *password = "YOUR_PASSWORD";
 
 AsyncWebServer server(80);
 String projectTitle = "ESP Room LEDS";
