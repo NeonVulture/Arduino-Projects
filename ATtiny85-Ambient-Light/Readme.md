@@ -10,6 +10,7 @@
 + 1 push button
 + 1 470 ohm resistor
 + 1 Photoresistor
++ 1 10k resistor
 + Attiny85 Programmer or Arduino Uno
 + 10uF Capacitor (if not using a programmer)
 ## Wiring
