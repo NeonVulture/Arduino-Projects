@@ -4,7 +4,7 @@
 1. Pocket Simon
 2. ATtiny85 Ambient Light 
 3. ATtiny85 Sound Reactive LEDs
-4. ATtiny85 RTC Clock
+4. ATtiny85 Mini Clock
 ## ESP:
 1. ESP32/8266 Relay
 2. ESP32/8266 TM1637 Clock
