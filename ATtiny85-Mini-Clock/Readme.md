@@ -6,7 +6,7 @@
 ## Component List
 + Attiny85
 + Breadboard
-+ A 7-Segment display*
++ A display
 + RTC (Module or bare-bones)
 + Attiny85 Programmer or Arduino Uno
 + 10uF Capacitor (if not using programmer)
