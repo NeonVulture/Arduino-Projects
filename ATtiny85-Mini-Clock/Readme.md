@@ -20,6 +20,13 @@ This project will aim to show not only how to build a very minimalistic clock us
   <img src="https://github.com/NeonVulture/Arduino-Projects/blob/main/ATtiny85-Mini-Clock/Assets/Supplemental_Images/TM1637_Display_Module.jpg?raw=true" alt="TM1637 Module"/>
 </p>
 *TM1637 Display (Barebone)*
+*MAX7219 Display (Barebone)*
+<p align="center">
+  <img src="https://github.com/NeonVulture/Arduino-Projects/blob/main/ATtiny85-Mini-Clock/Assets/Supplemental_Images/MAX7219_7-Seg_Front.jpg?raw=true" alt="MAX7219 Module (Front)"/>
+  <img src="https://github.com/NeonVulture/Arduino-Projects/blob/main/ATtiny85-Mini-Clock/Assets/Supplemental_Images/MAX7219_7-Seg_Back.jpg?raw=true" alt="MAX7219 Module (Back)"/>
+</p>
+
+*MAX7219 Display (Barebone)*
 This project utilized a 0.56" TM1637 display. It requires just two pins (aside from VCC and GND) to control and thus makes it easy to use with an ATtiny85. However, you need not to use a TM1637 display. It is also possible to use a 7-Segment display that is controlled by MAX7219 IC.
 ## Choosing an RTC
 This project utilized a bare-bones (i.e. non-module) version of a DS1307 RTC. However, you could use any other RTC module such as the DS3231 RTC (tested) or DS1302 RTC (not-tested).
