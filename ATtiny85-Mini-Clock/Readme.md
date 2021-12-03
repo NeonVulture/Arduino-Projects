@@ -17,7 +17,7 @@ This project will aim to show not only how to build a very minimalistic clock us
 ## Choosing a display
 *TM1637 Display (Module)*
 <p align="center">
-  <img src="https://github.com/NeonVulture/Arduino-Projects/blob/main/ATtiny85-Mini-Clock/Assets/Supplemental_Images/TM1637_Display_Module?raw=true" alt="PCB View"/>
+  <img src="https://github.com/NeonVulture/Arduino-Projects/blob/main/ATtiny85-Mini-Clock/Assets/Supplemental_Images/TM1637_Display_Module.jpg?raw=true" alt="TM1637 Module"/>
 </p>
 *TM1637 Display (Barebone)*
 This project utilized a 0.56" TM1637 display. It requires just two pins (aside from VCC and GND) to control and thus makes it easy to use with an ATtiny85. However, you need not to use a TM1637 display. It is also possible to use a 7-Segment display that is controlled by MAX7219 IC.
