@@ -20,7 +20,10 @@ This project will aim to show not only how to build a very minimalistic clock us
   <img src="https://github.com/NeonVulture/Arduino-Projects/blob/main/ATtiny85-Mini-Clock/Assets/Supplemental_Images/TM1637_Display_Module.jpg?raw=true" alt="TM1637 Module"/>
 </p>
 *TM1637 Display (Barebone)*
-*MAX7219 Display (Barebone)*
+<p align="center">
+  <img src="https://github.com/NeonVulture/Arduino-Projects/blob/main/ATtiny85-Mini-Clock/Assets/Supplemental_Images/TM1637_IC_Driver.png?raw=true" alt="TM1637 Driver"/>
+</p>
+*MAX7219 Display (Module)*
 <p align="center">
   <img src="https://github.com/NeonVulture/Arduino-Projects/blob/main/ATtiny85-Mini-Clock/Assets/Supplemental_Images/MAX7219_7-Seg_Front.jpg?raw=true" alt="MAX7219 Module (Front)"/>
   <img src="https://github.com/NeonVulture/Arduino-Projects/blob/main/ATtiny85-Mini-Clock/Assets/Supplemental_Images/MAX7219_7-Seg_Back.jpg?raw=true" alt="MAX7219 Module (Back)"/>
