@@ -3,11 +3,14 @@
 #### Features
 + 
 + Accounts for Daylight Savings Time (DST)
+## Introduction
+There are hundreds if not thousands of online of clock builds. They usually multifunctional with [].
+This project will aim to show how not only how to build a very minimalistic clock using an ATtiny, but how display drivers actually work along with how to build your own 'barebone' versions of common drivers.
 ## Component List
 + Attiny85
 + Breadboard
-+ A display
-+ RTC (Module or bare-bones)
++ A display (module or barbone)
++ RTC (module or barebone)
 + Attiny85 Programmer or Arduino Uno
 + 10uF Capacitor (if not using programmer)
 
