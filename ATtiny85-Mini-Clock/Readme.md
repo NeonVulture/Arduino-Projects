@@ -15,6 +15,8 @@ This project will aim to show not only how to build a very minimalistic clock us
 + 10uF Capacitor (if not using programmer)
 
 ## Choosing a display
+If you are unfamiliar with 7-Segment displays, they are simply a cluster of LEDS organized in such a way that each represents a segment that can then be manipulated to display alpha-numeric data. Each LED can be individually triggered by setting its corresponding pin to logic HIGH (i.e. VCC) or logic LOW (i.e. GND) depending on the type of display. When working with 7-Segment displays alongside microcontrollers 
+You may be wondering why do we even require modules to control a 7-Segment display. In essence, it makes interfacing with them much easier and thus makes our lives much easier. Also, for the purposes of this project, it is necessary to use a module because there is not enough pins on the ATtiny to connect each pin of a 7-Segment display. 
 *TM1637 Display (Module)*
 <p align="center">
   <img src="https://github.com/NeonVulture/Arduino-Projects/blob/main/ATtiny85-Mini-Clock/Assets/Supplemental_Images/TM1637_Display_Module.jpg?raw=true" alt="TM1637 Module"/>
