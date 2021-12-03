@@ -28,14 +28,14 @@ It is totally possible to create your own TM1637 display driver if you have the 
 <p align="center">
   <img src="https://github.com/NeonVulture/Arduino-Projects/blob/main/ATtiny85-Mini-Clock/Assets/Supplemental_Images/TM1637_IC_Driver.jpg?raw=true" alt="TM1637 Driver"/>
 </p>
-The question is however, why bother? Well, perhaps other than saving a couple of dollars, this gives you a bit more freedom
+The question is however, why bother? Well, perhaps other than saving a couple of dollars, this gives you a bit more freedom on what 7-Segment display you could use. Namely, you could use a much larger display.
 *MAX7219 Display (Module)*
-The MAX7219 display module is most commonly found as an 8-digit display package which is a good choice if you want to display alpha-numeric data that is larger than 4-digits. In terms of digital clock design, this module would be most useful
+The MAX7219 display module is another popular module that requires three pins (aside from VCC and GND) to control.
 <p align="center">
   <img src="https://github.com/NeonVulture/Arduino-Projects/blob/main/ATtiny85-Mini-Clock/Assets/Supplemental_Images/MAX7219_7-Seg_Front.jpg?raw=true" alt="MAX7219 Module (Front)"/>
   <img src="https://github.com/NeonVulture/Arduino-Projects/blob/main/ATtiny85-Mini-Clock/Assets/Supplemental_Images/MAX7219_7-Seg_Back.jpg?raw=true" alt="MAX7219 Module (Back)"/>
 </p>
-
+It is most commonly sold as an 8-digit display package which is a good choice if you want to display alpha-numeric data that is larger than 4-digits. You may also find them in dot matrix modules. In terms of digital clock design, this module would be most useful if you wish to create a dual clock or a clock that incorpates 
 *MAX7219 Display (Barebone)*
 While a MAX7219 IC can drive up [] it can also be used to drive an ordinary 4-digit display.
 ## Choosing an RTC
