@@ -46,10 +46,11 @@ It is most commonly sold as an 8-digit display package which is a good choice if
 *MAX7219 Display (Barebone)*
 While a MAX7219 IC can drive up [] it can also be used to drive an ordinary 4-digit display.
 ## Choosing an RTC
-This project utilized a bare-bones (i.e. non-module) version of a DS1307 RTC. However, you could use any other RTC module such as the DS3231 RTC (tested) or DS1302 RTC (not-tested).
+The display choosen is independent of the RTC.
 ## Wiring
 Regardless of what RTC and Display you decide to use 
 *Option 1: (DS1307 or DS3231) + TM1637*
+
 *Option 2:* 
 ## Required libraries
 The necessary libraries are going to depend on what display you chose. 
