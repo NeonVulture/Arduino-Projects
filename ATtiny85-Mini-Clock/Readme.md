@@ -45,6 +45,10 @@ The MAX7219 display module is another popular module that requires three pins (a
 It is most commonly sold as an 8-digit display package which is a good choice if you want to display alpha-numeric data that is larger than 4-digits. You may also find them in dot matrix modules. In terms of digital clock design, this module would be most useful if you wish to create a dual clock or a clock that incorpates 
 *MAX7219 Display (Barebone)*
 While a MAX7219 IC can drive up [] it can also be used to drive an ordinary 4-digit display.
+<p align="center">
+  <img src="https://github.com/NeonVulture/Arduino-Projects/blob/main/ATtiny85-Mini-Clock/Assets/Supplemental_Images/MAX7219_IC_Wiring.jpg?raw=true" alt="TM1637 Driver"/>
+</p>
+
 ## Choosing an RTC
 The display choosen is independent of the RTC.
 ## Wiring
