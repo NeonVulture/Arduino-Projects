@@ -10,7 +10,9 @@
 7. FM Radio (Coming Soon)
 8. Digital OLED Thermometer (Coming Soon)
 9. P10 Digital Clock (Coming Soon)
-10. 
+10. Color Mixing Map (Coming Soon)
+11. Pulse Lamp (Coming Soon)
+12. Simon Memory Game (Touch Version) (Coming Soon)
 
 ## ESP:
 1. ESP32/8266 Relay
